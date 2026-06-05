@@ -1,0 +1,15 @@
+name: dbscan-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - scikit-learn=1.3.2
+  - scipy
+  - streamlit
+  - pandas
+  - numpy
+  - plotly
+  - joblib
+  - pip
+  - pip:
+    - -r requirements.txt
